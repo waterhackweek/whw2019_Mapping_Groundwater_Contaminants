@@ -5,7 +5,7 @@
 **Collaborators on this Project**
 - Project Lead - Katya Cherukumilli
 - Data Science Lead - Rohit Khattar
-
+- Clown of the teamm - Rohit
 **The Problem**
 
 300 million people worldwide are at risk of irreversible crippling disorders, internal cancers, and early mortality due to consumption of groundwater containing naturally occurring (&quot;geogenic&quot;) arsenic and fluoride. In recent years, there has been increasing public interest to appropriately manage and protect high-quality groundwater aquifers for drinking water and irrigation in drought-stricken regions (e.g., Western U.S., India, etc.). Our project aims to map the co-occurrence of multiple contaminants since most maps currently focus on an individual contaminant.
