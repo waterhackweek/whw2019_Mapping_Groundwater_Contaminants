@@ -3,7 +3,7 @@
 **Project Title:** Mapping Co-Occurrence of Geogenic Groundwater Contaminants of Concern
 
 **Collaborators on this Project**
-- Project Lead - Katya Cherukumilli
+- Project Lead - Dr.Katya Cherukumilli 
 - Data Science Lead - Rohit Khattar
 - Team Member - Allan Jones
 
