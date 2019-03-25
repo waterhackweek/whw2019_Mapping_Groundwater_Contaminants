@@ -5,6 +5,7 @@
 **Collaborators on this Project**
 - Project Lead - Katya Cherukumilli
 - Data Science Lead - Rohit Khattar
+- Contributor: Tristan Weiss
 
 **The Problem**
 
