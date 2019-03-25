@@ -5,6 +5,7 @@
 **Collaborators on this Project**
 - Project Lead - Katya Cherukumilli
 - Data Science Lead - Rohit Khattar
+- Team Member - Allan Jones
 
 **The Problem**
 
@@ -55,7 +56,7 @@ We would like to build a web application based on Tethys ([Click Here](http://do
 ***Indian Databases***
 
 1. India Central Ground Water Board (CGWB) Database: [Click Here](http://cgwb.gov.in/GW-data-access.html) and [here](http://www.india-wris.nrsc.gov.in/GWL/GWL.html?UType=R2VuZXJhbA==?UName=)
-    - This source contains well data from India for the post Monsoon 2016 season. 
+    - This source contains well data from India for the post Monsoon 2016 season.
     - There is a csv download option available that provides inches of rainfall measured.
 
 1. Indian Water Tool: The IWT is the first of its kind, a comprehensive, high-resolution, user-friendly, and publicly available tool to help companies, and other water users identify their water risks, and plan their interventions for water management in India.
