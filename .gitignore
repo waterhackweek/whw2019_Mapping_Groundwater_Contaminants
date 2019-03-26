@@ -1,3 +1,4 @@
+.idea/
 *.pydevproject
 *.project
 *.egg-info
@@ -7,5 +8,4 @@
 *.db
 *.sqlite
 *.DS_Store
-*.idea/
 services.yml
