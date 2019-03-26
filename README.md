@@ -28,8 +28,8 @@ Because disease surveillance and epidemiological data are often not available at
 **Specific Objectives**
 
 1. Identify high-quality droundwater databases, contaminants of concern, and geographical regions of focus (based on available data)
-2. Compile and wrangle existing water quality data from chosen database
-    - Look for data on contaminant concentration, sampling well depth, water quality parameters (pH, DO, Eh, TDS, etc.), and sampling lat/long info.
+- Look for data on contaminant concentration, sampling well depth, water quality parameters (pH, DO, Eh, TDS, etc.), and sampling lat/long info.
+2. Compile and wrangle existing water quality data from chosen database    
 3. 3D Data visualization of categorical geospatial data: Possibly a 3-D map using mapping JS libraries in Tethys
 4. Overlay maps to determine potential co-occurrence
 5. Data Integration: Overlay water quality maps with other layers containing socio-economic and demographic information
