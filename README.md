@@ -7,7 +7,8 @@
 -   Project Lead - Dr.Katya Cherukumilli
 -   Data Science Lead - Rohit Khattar
 -   Team Member - Allan Jones
--   Team Member - Zhen
+-   Team Member - Zhen Han
+-   Team Member - Kevin McGee
 
 **The Problem**
 
