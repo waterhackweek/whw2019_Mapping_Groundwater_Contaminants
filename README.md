@@ -9,6 +9,7 @@
 -   Team Member - Allan Jones
 -   Team Member - Zhen Han
 -   Team Member - Kevin McGee
+-   Team Member - Tristan Weiss
 
 **The Problem**
 
