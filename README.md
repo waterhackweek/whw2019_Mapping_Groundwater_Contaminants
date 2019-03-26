@@ -17,7 +17,7 @@
 
 **Application Example**
 
-This project seeks to characterize the spatial and temporal heterogeneity and potential co-occurrence of inorganic groundwater contaminants (i.e., As, F-, NO3-, Cr, Se, Mn, and U) in vertical groundwater profiles. The co-occurrence of these emerging contaminants in groundwater aquifers and individual wells has been understudied and underreported. However, recent studies have begun drawing geochemical links between the co-occurrence of various contaminants in the U.S. (nitrate and uranium), Cambodia (arsenic and manganese), and India, China, Mexico and Latin America (arsenic, fluoride, and nitrate).
+This project seeks to characterize the spatial and temporal heterogeneity and potential co-occurrence of inorganic groundwater contaminants (i.e., As, F<sup>-</sup>, NO<sub>3</sub><sup>-</sup>, Cr, Se, Mn, and U) in vertical groundwater profiles. The co-occurrence of these emerging contaminants in groundwater aquifers and individual wells has been understudied and underreported. However, recent studies have begun drawing geochemical links between the co-occurrence of various contaminants in the U.S. (nitrate and uranium), Cambodia (arsenic and manganese), and India, China, Mexico and Latin America (arsenic, fluoride, and nitrate).
 
 _Example of an application: In the US, agricultural families in the CA central valley and eastern WA have a greater risk of exposure to nitrate due to the heavy use of nitrate-containing fertilizers that contaminate the local groundwater. The extent to which these rural populations are ALSO simultaneously exposed to arsenic and chromium is not known, but these regions have reported those contaminants as well._
 
