@@ -1,0 +1,207 @@
+[33mcommit b8b338c4081594a65346d020f796ed75c9e80490[m[33m ([m[1;36mHEAD -> [m[1;32maj_geopandas_work[m[33m)[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Thu Mar 28 11:32:03 2019 -0700
+
+    Progress on geopandas work
+
+[33mcommit be1fcf239b5a7076079cf0baf7de619746262d75[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Thu Mar 28 09:10:47 2019 -0700
+
+    Initial directory specification for geopandas work
+
+[33mcommit 01e04778326708ab58116d5302c592833e6eed6d[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Thu Mar 28 08:13:21 2019 -0700
+
+    organizing new notebook
+
+[33mcommit 6f7cf5c4260a138864b765924c19b7af7802fdd0[m
+Merge: 9360701 d160bad
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Thu Mar 28 08:12:06 2019 -0700
+
+    Merge branch 'master' into aj_geopandas_work
+
+[33mcommit d160bada9c9a7b6310c56f3dc7dcce69ee13f4d5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: zhen-zh <Zhen@D-10-18-192-179.dhcp4.washington.edu>
+Date:   Wed Mar 27 17:32:14 2019 -0700
+
+    Awesome changes
+
+[33mcommit 3d7432b251f6b4003a7bab7b490be2c2e33c24bf[m
+Author: zhen-zh <Zhen@D-10-18-192-179.dhcp4.washington.edu>
+Date:   Wed Mar 27 17:04:54 2019 -0700
+
+    Fixed setup.py
+
+[33mcommit 28abdd04e0801c026355c704d2c95118d84fec97[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Wed Mar 27 09:36:58 2019 -0700
+
+    Update README.md
+
+[33mcommit 9360701b25931879f781f41272432e1dcac7eaba[m[33m ([m[1;31morigin/allansName[m[33m, [m[1;32mallansName[m[33m, [m[1;32mallanejones[m[33m)[m
+Merge: bbb2f9d 245ca94
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Mon Mar 25 21:51:16 2019 -0700
+
+    Merge branch 'master' into allansName
+
+[33mcommit bbb2f9dc0baf0d0e9427597de47a79e98634abae[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Mon Mar 25 21:49:56 2019 -0700
+
+    Adding super- and sub-scripts
+
+[33mcommit 245ca942873d8902657a943c65fc522085455cfe[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 25 20:53:58 2019 -0700
+
+    Update README.md
+
+[33mcommit 882eafa7bcb94cbf366555ae66c9ad5739b072cb[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 25 20:51:40 2019 -0700
+
+    Update README.md
+
+[33mcommit ed8376b75c3655a05b6a7eb5919039c1016985aa[m
+Merge: 4a7121f 552d203
+Author: kevinpmcgee14 <kevinpmcgee14@gmail.com>
+Date:   Mon Mar 25 17:49:01 2019 -0700
+
+    Merge branch 'Kevin'
+
+[33mcommit 552d20365ab4680dd9498cb6b8f19ca11a128784[m[33m ([m[1;31morigin/Kevin[m[33m)[m
+Merge: 4d04275 24dfd20
+Author: kevinpmcgee14 <kevinpmcgee14@gmail.com>
+Date:   Mon Mar 25 17:47:51 2019 -0700
+
+    Merge branch 'Kevin' of https://github.com/waterhackweek/whw2019_Mapping_Groundwater_Contaminants into Kevin
+
+[33mcommit 4d04275f74ee16a4dcd2f9275ecc79c8150f3066[m
+Author: kevinpmcgee14 <kevinpmcgee14@gmail.com>
+Date:   Mon Mar 25 17:47:31 2019 -0700
+
+    Added top level .gitignore
+
+[33mcommit 4a7121fa205855cba5aebd10d169c092c329676e[m
+Merge: 282c7c0 d9f6772
+Author: Rohit Khattar <rohitkh@byu,edu>
+Date:   Mon Mar 25 17:18:09 2019 -0700
+
+    Merged Tristan's stufffffff
+
+[33mcommit 282c7c01b9f86d08372f383a334391ec32cc7dbe[m
+Merge: f2b4831 24dfd20
+Author: Rohit Khattar <rohit.iitbbs@gmail.com>
+Date:   Mon Mar 25 18:13:23 2019 -0600
+
+    Merge pull request #2 from waterhackweek/Kevin
+    
+    Added my name to README.md
+
+[33mcommit 24dfd208a02884c4955170c82cce43394fe11ddc[m
+Merge: a9e93fb f2b4831
+Author: Rohit Khattar <rohit.iitbbs@gmail.com>
+Date:   Mon Mar 25 18:13:12 2019 -0600
+
+    Merge branch 'master' into Kevin
+
+[33mcommit f2b4831ef947e58689cd4e99f610782562cf4eb1[m
+Merge: 4177264 a5697f0
+Author: Rohit Khattar <rohitkh@byu,edu>
+Date:   Mon Mar 25 17:05:34 2019 -0700
+
+    Resolved merge conflicts with Zhen
+    s branch
+
+[33mcommit a9e93fbddd3f0994ad5ab9322de4ff502b61983d[m
+Author: kevinpmcgee14 <kevinpmcgee14@gmail.com>
+Date:   Mon Mar 25 17:02:56 2019 -0700
+
+    Added my name to README.md
+
+[33mcommit 4177264769d663ee5d17dced3e5511027bf71b1c[m
+Merge: 6f44d76 9f52374
+Author: Rohit Khattar <rohitkh@byu,edu>
+Date:   Mon Mar 25 16:58:00 2019 -0700
+
+    Merge branch 'katya'
+
+[33mcommit 6f44d761804415649005967de1e36eecae1b6a67[m
+Merge: 9464cda 8bd1881
+Author: Rohit Khattar <rohit.iitbbs@gmail.com>
+Date:   Mon Mar 25 17:50:55 2019 -0600
+
+    Merge pull request #1 from waterhackweek/allansName
+    
+    Adding my name to the README
+
+[33mcommit d9f6772fae97d01540ae7d8e7eb4ffa628665b49[m[33m ([m[1;31morigin/tristan[m[33m)[m
+Author: PNWeiss <tristannweiss@gmail.com>
+Date:   Mon Mar 25 16:13:35 2019 -0700
+
+    Added new line in README.md to specify Tristan Weiss as a contributor
+
+[33mcommit a5697f0aec2c79b3d786dc99f1567b6c42c8e721[m
+Author: zhen-zh <Zhen@D-10-18-192-179.dhcp4.washington.edu>
+Date:   Mon Mar 25 16:07:21 2019 -0700
+
+    Zhen test
+
+[33mcommit 9f52374a20d0e4d52b7b9d39081b6e73f7702bbe[m[33m ([m[1;31morigin/katya[m[33m)[m
+Author: Katya cherukumilli <katyach@uw.edu>
+Date:   Mon Mar 25 16:05:24 2019 -0700
+
+    Added Dr. in front of my own name to README.md
+
+[33mcommit 8bd18815fcb47efd42f0765793633cf576f5ff5b[m
+Author: Allan E Jones <allan.jones9076@gmail.com>
+Date:   Mon Mar 25 15:50:07 2019 -0700
+
+    Adding my name to the README
+
+[33mcommit 9464cda121cc6305511512b5209b4c64c9290200[m
+Merge: f2649cf 066009d
+Author: Rohit Khattar <rohitkh@byu,edu>
+Date:   Mon Mar 25 15:27:37 2019 -0700
+
+    Merge branch 'master' of https://github.com/waterhackweek/whw2019_Mapping_Groundwater_Contaminants
+
+[33mcommit 066009de07fc5b0cbb5030c5faa8eb7e925a5238[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 25 15:24:52 2019 -0700
+
+    Update README.md
+
+[33mcommit f2649cfe7ce32188aba553d2e298a05cb798ac0d[m
+Author: Rohit Khattar <rohitkh@byu,edu>
+Date:   Mon Mar 25 14:26:22 2019 -0700
+
+    Added App, scaffold
+
+[33mcommit b2ff3184fed5191c39b32a3e72ab44145a0a2b1a[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 25 13:46:02 2019 -0700
+
+    Update README.md
+
+[33mcommit 1821dc4915615a8be76dda20cdffbbe88a8e3fef[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 18 11:37:49 2019 -0700
+
+    Update README.md
+
+[33mcommit a1e50be0cc55320243878f619cafe07839e3ff64[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 18 11:31:30 2019 -0700
+
+    Update README.md
+
+[33mcommit af200e6561850ebfa3a11418ce13122f9fb184e0[m
+Author: katyacherukumilli <46641698+katyacherukumilli@users.noreply.github.com>
+Date:   Mon Mar 18 11:21:28 2019 -0700
+
+    Initial commit
