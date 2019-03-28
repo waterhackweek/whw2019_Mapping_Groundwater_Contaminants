@@ -4,12 +4,14 @@
 
 **Collaborators on this Project**
 
--   Project Lead - Dr.Katya Cherukumilli
+-   Project Lead - Katya Cherukumilli
 -   Data Science Lead - Rohit Khattar
 -   Team Member - Allan Jones
 -   Team Member - Zhen Han
 -   Team Member - Kevin McGee
 -   Team Member - Tristan Weiss
+
+**HydroShare Resource** - [Dateset](https://www.hydroshare.org/resource/8c245acb6eaa4a319552f0be3106af95/)
 
 **The Problem**
 
@@ -27,10 +29,9 @@ Because disease surveillance and epidemiological data are often not available at
 
 **Specific Objectives**
 
-1. Data visualization of categorical geospatial data
-    - This will be done by identifying contaminants of concern and geographical regions based on the available data.
-2. Compile and wrangle existing water quality data from national databases
-    - Look for data on contaminant concentration, sampling well depth, water quality parameters (pH, DO, Eh, TDS, etc.), and sampling lat/long info.
+1. Identify high-quality droundwater databases, contaminants of concern, and geographical regions of focus (based on available data)
+- Look for data on contaminant concentration, sampling well depth, water quality parameters (pH, DO, Eh, TDS, etc.), and sampling lat/long info.
+2. Compile and wrangle existing water quality data from chosen database    
 3. 3D Data visualization of categorical geospatial data: Possibly a 3-D map using mapping JS libraries in Tethys
 4. Overlay maps to determine potential co-occurrence
 5. Data Integration: Overlay water quality maps with other layers containing socio-economic and demographic information
