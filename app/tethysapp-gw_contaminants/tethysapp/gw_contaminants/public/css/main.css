@@ -1,0 +1,11 @@
+#app-content-wrapper #app-content {
+	height: 100%;
+}
+
+#inner-app-content {
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+}

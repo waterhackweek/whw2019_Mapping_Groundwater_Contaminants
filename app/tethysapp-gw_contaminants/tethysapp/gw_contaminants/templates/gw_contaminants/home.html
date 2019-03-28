@@ -7,8 +7,16 @@
   </div>
 {% endblock %}
 
+{% block app_navigation_items %}
+
+
+{% gizmo year_slider %}
+
+{% endblock %}
+
+
 {% block app_content %}
-  <h1>Water Map</h1>
+   <div id="map" class="map"></div>
 {% endblock %}
 
 {# Use the after_app_content block for modals #}
