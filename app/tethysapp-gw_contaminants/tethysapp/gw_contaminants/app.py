@@ -29,6 +29,11 @@ class GwContaminants(TethysAppBase):
                 url='gw-contaminants',
                 controller='gw_contaminants.controllers.home'
             ),
+            UrlMap(
+                name='get_points',
+                url='gw-contaminants/get_points',
+                controller='gw_contaminants.controllers.get_points'
+            ),
         )
 
         return url_maps

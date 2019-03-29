@@ -1,5 +1,7 @@
 {% extends "gw_contaminants/base.html" %}
 {% load tethys_gizmos %}
+{% load staticfiles %}
+
 
 {% block header_buttons %}
   <div class="header-button glyphicon-button" data-toggle="tooltip" data-placement="bottom" title="Help">
@@ -8,15 +10,25 @@
 {% endblock %}
 
 {% block app_navigation_items %}
+<hr/>
 
-
-{% gizmo year_slider %}
+<label for="year">Year:</label>
+<input type="text" id="year" readonly style="border:0; color:#f6931f; font-weight:bold;">
+<hr/>
+<div id="year-slider" style="height:200px;"></div>
+<hr/>
+{% gizmo cont_selector %}
+<hr/>
+<img id="restAddLoading" class="view-file hidden" src="{% static 'gw_contaminants/images/loader.gif' %}" />
+{% gizmo search_button %}
 
 {% endblock %}
 
 
 {% block app_content %}
    <div id="map" class="map"></div>
+
+
 {% endblock %}
 
 {# Use the after_app_content block for modals #}
