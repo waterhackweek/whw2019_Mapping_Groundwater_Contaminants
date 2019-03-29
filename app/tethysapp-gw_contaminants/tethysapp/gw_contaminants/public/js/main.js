@@ -1,5 +1,7 @@
 let map
 let layers
+let current_layer
+let currentVectorLayer
 
 let base_layer = new ol.layer.Tile({
     source: new ol.source.BingMaps({
@@ -22,19 +24,103 @@ map = new ol.Map({
     }),
     layers: layers
 })
+
+init_events()
+
 $("#year-slider").slider({
-    orientation: "vertical",
     min: 1920, // #TODO : Get this from the database
     max: 2019, // #TODO : Get this from the database
     slide: function(event, ui) {
         $("#year").val(ui.value)
+        $("#custom-handle").text(ui.value)
+    },
+    create: function(event, ui) {
+        $(this).slider("value", 2018)
+        $("#custom-handle").text(2018)
     }
+})
+
+$("#year").change(function() {
+    $("#year-slider").slider("value", $("#year").val())
+    $("#custom-handle").text($("#year").val())
 })
 
 $("#year").val($("#year-slider").slider("value"))
 
+function init_events() {
+    //Only show the pointer for layers that aren't base layer, shapefile layer and the point/polygon feature layer
+    map.on("pointermove", function(evt) {
+        if (evt.dragging) {
+            return
+        }
+        var pixel = map.getEventPixel(evt.originalEvent)
+        var hit = map.forEachLayerAtPixel(pixel, function(layer) {
+            if (layer != layers[0]) {
+                current_layer = layer
+                return true
+            }
+        })
+        map.getTargetElement().style.cursor = hit ? "pointer" : ""
+    })
+
+    // display popup on click
+    map.on("singleclick", function(evt) {
+        if (map.getTargetElement().style.cursor == "pointer") {
+            var feature = map.forEachFeatureAtPixel(
+                evt.pixel,
+                (feature, layer) => feature
+            )
+
+            if (feature) {
+                var geometry = feature.getGeometry()
+                var coord = geometry.getCoordinates()
+
+                let variables = $("#cont_selector").select2("data")
+
+                variables = variables.map((variable) => variable.id)
+
+                let site_name = feature.get("name"),
+                    site_id = feature.get("id"),
+                    details_html =
+                        `details/?sitename=${encodeURIComponent(site_name)}` +
+                        `&siteid=${encodeURIComponent(site_id)}` +
+                        `&variables=${encodeURIComponent(variables)}`
+
+                $("#graph").modal("show")
+                $("#main-chart").addClass("hidden")
+
+                $("#view-file-loading").removeClass("hidden")
+                $.ajax({
+                    type: "GET",
+                    url: details_html,
+                    success: function(data) {
+                        $("#view-file-loading").addClass("hidden")
+                        $("#main-chart").removeClass("hidden")
+                        $("#main-chart").html(data)
+                    },
+                    error: function(err) {
+                        $("#view-file-loading").addClass("hidden")
+                        console.log(err)
+                        $("#info").html(
+                            '<p class="alert alert-danger" style="text-align: center"><strong>An unknown error occurred</strong></p>'
+                        )
+                        $("#info").removeClass("hidden")
+
+                        setTimeout(function() {
+                            $("#info").addClass("hidden")
+                        }, 5000)
+                    }
+                })
+            } else {
+            }
+        }
+    })
+}
+
 function displayData(data) {
-    $("#restAddLoading").removeClass("hidden")
+    if (currentVectorLayer) {
+        map.removeLayer(currentVectorLayer)
+    }
     let extent = ol.extent.createEmpty()
 
     let sites = data.result
@@ -76,6 +162,7 @@ function displayData(data) {
         source: vectorSource,
         style: featureStyle()
     })
+    currentVectorLayer = vectorLayer
 
     map.addLayer(vectorLayer)
     ol.extent.extend(extent, vectorSource.getExtent())
@@ -90,6 +177,7 @@ function displayData(data) {
 }
 
 function perform_search() {
+    $("#restAddLoading").removeClass("hidden")
     let year = $("#year").val()
     let variables = $("#cont_selector").select2("data")
 
