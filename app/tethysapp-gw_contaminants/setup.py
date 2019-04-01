@@ -7,7 +7,8 @@ from tethys_apps.app_installation import custom_develop_command, custom_install_
 app_package = 'gw_contaminants'
 release_package = 'tethysapp-' + app_package
 app_class = 'gw_contaminants.app:GwContaminants'
-app_package_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tethysapp', app_package)
+app_package_dir = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'tethysapp', app_package)
 
 # -- Please list all dependencies in the init.yml file -- #
 # -- Python Dependencies -- #

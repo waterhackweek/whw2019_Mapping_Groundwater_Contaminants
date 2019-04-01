@@ -1,0 +1,48 @@
+#app-content-wrapper #app-content {
+	height: 100%;
+}
+
+#inner-app-content {
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+}
+
+#year-slider {
+	margin-left: 5%;
+	width: 80%;
+}
+
+.popover-content {
+	min-width: 180px;
+}
+
+#graph {
+	height: 100%;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.chart {
+	min-width: 320px;
+	max-width: 800px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+.modal-content {
+	min-width: 900px;
+}
+
+#custom-handle {
+	width: 3em;
+	height: 1.6em;
+	top: 50%;
+	margin-top: -0.8em;
+	text-align: center;
+	line-height: 1.6em;
+}
